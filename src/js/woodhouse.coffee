@@ -180,7 +180,7 @@ search_for_hash = ->
 $(document).ready ->
   console.log('ready')
 
-  Papa.parse("#{window.location.href.split("#")[0]}data/woodhouse.csv",
+  Papa.parse("#{window.location.href.split("#")[0]}data/riddle-arnold_for_web.csv",
     {
       download: true,
       newline: "\r\n",
