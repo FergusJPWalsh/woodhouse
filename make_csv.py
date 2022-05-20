@@ -9,4 +9,4 @@ with open("riddle-arnold.tsv", "r", encoding="utf-8") as f:
         new_data.append(new_row)
 with open("data/riddle-arnold_for_web.csv", "w", encoding="utf-8") as g:
     for row in new_data:
-        g.write(row+"\n")
+        g.write(row+"\r\n")
